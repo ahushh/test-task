@@ -10,7 +10,6 @@ const queryClient = new QueryClient()
 function App() {
   return (
     <QueryClientProvider client={queryClient}>
-
       <Layout>
         <Header className='header'>Header</Header>
         <Content className='content'>
@@ -23,7 +22,6 @@ function App() {
         <Footer>Footer</Footer>
       </Layout>
     </QueryClientProvider>
-
   );
 }
 
